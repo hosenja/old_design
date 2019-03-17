@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeaderCollectionView2" customModule="Snapgroup" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OeS-AQ-8OZ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dOc-rp-DNK">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="dOc-rp-DNK" firstAttribute="leading" secondItem="OeS-AQ-8OZ" secondAttribute="leading" id="06N-8C-vT3"/>
+                        <constraint firstAttribute="trailing" secondItem="dOc-rp-DNK" secondAttribute="trailing" id="M7O-Jy-5ev"/>
+                        <constraint firstItem="dOc-rp-DNK" firstAttribute="top" secondItem="OeS-AQ-8OZ" secondAttribute="top" id="tb4-4z-dx1"/>
+                        <constraint firstAttribute="bottom" secondItem="dOc-rp-DNK" secondAttribute="bottom" id="ylt-ZF-I6A"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="OeS-AQ-8OZ" secondAttribute="bottom" id="G6m-52-Wne"/>
+                <constraint firstItem="OeS-AQ-8OZ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="ZIZ-xT-O8t"/>
+                <constraint firstItem="OeS-AQ-8OZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hEF-V8-hZn"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="OeS-AQ-8OZ" secondAttribute="trailing" id="lLp-cY-GNH"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="30" y="110"/>
+        </view>
+    </objects>
+</document>
